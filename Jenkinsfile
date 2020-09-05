@@ -5,7 +5,7 @@ pipeline {
       agent any
       steps {
         echo '----Building started-----'
-        sh 'echo Another Placeholder'
+        sh 'echo Edited placeholder'
       }
     }
 

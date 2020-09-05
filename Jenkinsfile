@@ -12,6 +12,8 @@ pipeline {
       agent any
       steps {
         echo '---Testing has started---'
+        sh '''sleep 5
+echo success'''
       }
     }
 

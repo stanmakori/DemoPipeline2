@@ -16,8 +16,10 @@ pipeline {
     }
 
     stage('DemoDeploy') {
+      agent any
       steps {
         echo '----Deployment has started----'
+        echo '---Deployment has started---'
       }
     }
 
